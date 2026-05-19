@@ -1,0 +1,28 @@
+[8.775s] Invoking command in '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard': PYTHONPATH=/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/build --no-deps symlink_data
+[11.386s] running develop
+[12.520s] running egg_info
+[12.521s] creating vision_guard.egg-info
+[12.710s] writing vision_guard.egg-info/PKG-INFO
+[12.713s] writing dependency_links to vision_guard.egg-info/dependency_links.txt
+[12.713s] writing entry points to vision_guard.egg-info/entry_points.txt
+[12.714s] writing requirements to vision_guard.egg-info/requires.txt
+[12.714s] writing top-level names to vision_guard.egg-info/top_level.txt
+[12.715s] writing manifest file 'vision_guard.egg-info/SOURCES.txt'
+[12.860s] reading manifest file 'vision_guard.egg-info/SOURCES.txt'
+[12.861s] writing manifest file 'vision_guard.egg-info/SOURCES.txt'
+[12.973s] running build_ext
+[12.973s] Creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/python3.12/site-packages/vision-guard.egg-link (link to .)
+[12.983s] Installing detector_node script to /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/vision_guard
+[12.985s] Installing response_node script to /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/vision_guard
+[12.985s] Installing tracker_node script to /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/vision_guard
+[12.990s] 
+[12.991s] Installed /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard
+[12.999s] running symlink_data
+[12.999s] creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index
+[13.000s] creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index/resource_index
+[13.001s] creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index/resource_index/packages
+[13.006s] symbolically linking /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/resource/vision_guard -> /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index/resource_index/packages
+[13.006s] symbolically linking /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/package.xml -> /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/vision_guard
+[13.006s] creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/vision_guard/launch
+[13.007s] symbolically linking /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/launch/vision_guard.launch.py -> /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/vision_guard/launch
+[13.196s] Invoked command in '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard' returned '0': PYTHONPATH=/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/build --no-deps symlink_data

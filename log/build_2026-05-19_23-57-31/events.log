@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000555] (vision_guard_msgs) JobQueued: {'identifier': 'vision_guard_msgs', 'dependencies': OrderedDict()}
+[0.001036] (vision_guard) JobQueued: {'identifier': 'vision_guard', 'dependencies': OrderedDict({'vision_guard_msgs': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs'})}
+[0.001583] (vision_guard_msgs) JobStarted: {'identifier': 'vision_guard_msgs'}
+[0.097315] (-) TimerEvent: {}
+[0.138424] (vision_guard_msgs) JobProgress: {'identifier': 'vision_guard_msgs', 'progress': 'cmake'}
+[0.142369] (vision_guard_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/src/vision_guard_msgs', '-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs'], 'cwd': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ironcladhealer769', 'GIT_ASKPASS': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ironcladhealer769', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b58144e6-1553-498c-96ed-6b0badc692a2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ironcladhealer769', 'NAME': 'DESKTOP-31SO28P', 'WSL_INTEROP': '/run/WSL/144_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/.local/bin:/mnt/c/Users/DELL/miniconda3:/mnt/c/Users/DELL/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/DELL/miniconda3/Library/usr/bin:/mnt/c/Users/DELL/miniconda3/Library/bin:/mnt/c/Users/DELL/miniconda3/Scripts:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/GitHubDesktop/bin:/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a50c607dea41cad3.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ironcladhealer769/.vscode-server/data/User/workspaceStorage/0ed232f55e927b65b43a1721ec913af9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0c6614ca25.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'PYTHONPATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.197468] (-) TimerEvent: {}
+[0.298077] (-) TimerEvent: {}
+[0.398950] (-) TimerEvent: {}
+[0.499573] (-) TimerEvent: {}
+[0.600628] (-) TimerEvent: {}
+[0.701209] (-) TimerEvent: {}
+[0.803311] (-) TimerEvent: {}
+[0.903873] (-) TimerEvent: {}
+[1.005022] (-) TimerEvent: {}
+[1.105584] (-) TimerEvent: {}
+[1.206350] (-) TimerEvent: {}
+[1.306953] (-) TimerEvent: {}
+[1.381368] (vision_guard_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.407270] (-) TimerEvent: {}
+[1.508004] (-) TimerEvent: {}
+[1.608653] (-) TimerEvent: {}
+[1.710430] (-) TimerEvent: {}
+[1.811282] (-) TimerEvent: {}
+[1.912772] (-) TimerEvent: {}
+[2.007708] (vision_guard_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.012877] (-) TimerEvent: {}
+[2.112641] (vision_guard_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.113217] (-) TimerEvent: {}
+[2.118051] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.213499] (-) TimerEvent: {}
+[2.314103] (-) TimerEvent: {}
+[2.414719] (-) TimerEvent: {}
+[2.516041] (-) TimerEvent: {}
+[2.616955] (-) TimerEvent: {}
+[2.648789] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.717277] (-) TimerEvent: {}
+[2.767981] (vision_guard_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.817506] (-) TimerEvent: {}
+[2.918711] (-) TimerEvent: {}
+[3.019835] (-) TimerEvent: {}
+[3.120465] (-) TimerEvent: {}
+[3.221065] (-) TimerEvent: {}
+[3.321625] (-) TimerEvent: {}
+[3.422213] (-) TimerEvent: {}
+[3.522764] (-) TimerEvent: {}
+[3.581118] (vision_guard_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.623080] (-) TimerEvent: {}
+[3.723884] (-) TimerEvent: {}
+[3.824827] (-) TimerEvent: {}
+[3.874576] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.924992] (-) TimerEvent: {}
+[4.025505] (-) TimerEvent: {}
+[4.126137] (-) TimerEvent: {}
+[4.227088] (-) TimerEvent: {}
+[4.297463] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.307819] (vision_guard_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.327275] (-) TimerEvent: {}
+[4.428198] (-) TimerEvent: {}
+[4.529126] (-) TimerEvent: {}
+[4.643976] (-) TimerEvent: {}
+[4.744558] (-) TimerEvent: {}
+[4.845828] (-) TimerEvent: {}
+[4.946409] (-) TimerEvent: {}
+[5.046918] (-) TimerEvent: {}
+[5.147478] (-) TimerEvent: {}
+[5.248081] (-) TimerEvent: {}
+[5.349383] (-) TimerEvent: {}
+[5.445767] (vision_guard_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.449409] (-) TimerEvent: {}
+[5.550220] (-) TimerEvent: {}
+[5.640897] (vision_guard_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.650413] (-) TimerEvent: {}
+[5.751100] (-) TimerEvent: {}
+[5.790274] (vision_guard_msgs) StdoutLine: {'line': b'-- Configuring done (4.5s)\n'}
+[5.851174] (-) TimerEvent: {}
+[5.951759] (-) TimerEvent: {}
+[6.052631] (-) TimerEvent: {}
+[6.153184] (-) TimerEvent: {}
+[6.253844] (-) TimerEvent: {}
+[6.279268] (vision_guard_msgs) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[6.354049] (-) TimerEvent: {}
+[6.409219] (vision_guard_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs\n'}
+[6.445436] (vision_guard_msgs) CommandEnded: {'returncode': 0}
+[6.449383] (vision_guard_msgs) JobProgress: {'identifier': 'vision_guard_msgs', 'progress': 'build'}
+[6.449520] (vision_guard_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ironcladhealer769', 'GIT_ASKPASS': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ironcladhealer769', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b58144e6-1553-498c-96ed-6b0badc692a2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ironcladhealer769', 'NAME': 'DESKTOP-31SO28P', 'WSL_INTEROP': '/run/WSL/144_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/.local/bin:/mnt/c/Users/DELL/miniconda3:/mnt/c/Users/DELL/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/DELL/miniconda3/Library/usr/bin:/mnt/c/Users/DELL/miniconda3/Library/bin:/mnt/c/Users/DELL/miniconda3/Scripts:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/GitHubDesktop/bin:/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a50c607dea41cad3.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ironcladhealer769/.vscode-server/data/User/workspaceStorage/0ed232f55e927b65b43a1721ec913af9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0c6614ca25.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'PYTHONPATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[6.454284] (-) TimerEvent: {}
+[6.555235] (-) TimerEvent: {}
+[6.657287] (-) TimerEvent: {}
+[6.757237] (vision_guard_msgs) StderrLine: {'line': b"failed to create symbolic link '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs/ament_cmake_python/vision_guard_msgs/vision_guard_msgs' because existing path cannot be removed: Is a directory\n"}
+[6.758941] (-) TimerEvent: {}
+[6.767778] (vision_guard_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vision_guard_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vision_guard_msgs] Error 1\n'}
+[6.769671] (vision_guard_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/ament_cmake_python_symlink_vision_guard_msgs.dir/all] Error 2\n'}
+[6.769967] (vision_guard_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.770096] (vision_guard_msgs) StdoutLine: {'line': b'[  2%] Built target vision_guard_msgs__rosidl_generator_type_description\n'}
+[6.770231] (vision_guard_msgs) StdoutLine: {'line': b'[  5%] Built target vision_guard_msgs__rs\n'}
+[6.771630] (vision_guard_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.775759] (vision_guard_msgs) CommandEnded: {'returncode': 2}
+[6.859568] (-) TimerEvent: {}
+[6.863571] (vision_guard_msgs) JobEnded: {'identifier': 'vision_guard_msgs', 'rc': 2}
+[6.876210] (vision_guard) JobSkipped: {'identifier': 'vision_guard'}
+[6.876362] (-) EventReactorShutdown: {}

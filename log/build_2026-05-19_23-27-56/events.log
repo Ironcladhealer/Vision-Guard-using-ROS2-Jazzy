@@ -1,0 +1,908 @@
+[0.000000] (-) TimerEvent: {}
+[0.001290] (vision_guard_msgs) JobQueued: {'identifier': 'vision_guard_msgs', 'dependencies': OrderedDict()}
+[0.001734] (vision_guard_msgs) JobStarted: {'identifier': 'vision_guard_msgs'}
+[0.048573] (vision_guard_msgs) JobProgress: {'identifier': 'vision_guard_msgs', 'progress': 'cmake'}
+[0.058966] (vision_guard_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/src/vision_guard_msgs', '-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DCMAKE_INSTALL_PREFIX=/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs'], 'cwd': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ironcladhealer769', 'GIT_ASKPASS': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ironcladhealer769', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b58144e6-1553-498c-96ed-6b0badc692a2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ironcladhealer769', 'NAME': 'DESKTOP-31SO28P', 'WSL_INTEROP': '/run/WSL/144_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/.local/bin:/mnt/c/Users/DELL/miniconda3:/mnt/c/Users/DELL/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/DELL/miniconda3/Library/usr/bin:/mnt/c/Users/DELL/miniconda3/Library/bin:/mnt/c/Users/DELL/miniconda3/Scripts:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/GitHubDesktop/bin:/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a50c607dea41cad3.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ironcladhealer769/.vscode-server/data/User/workspaceStorage/0ed232f55e927b65b43a1721ec913af9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0c6614ca25.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.098863] (-) TimerEvent: {}
+[0.199422] (-) TimerEvent: {}
+[0.300768] (-) TimerEvent: {}
+[0.401399] (-) TimerEvent: {}
+[0.429672] (vision_guard_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.501566] (-) TimerEvent: {}
+[0.614409] (-) TimerEvent: {}
+[0.715079] (-) TimerEvent: {}
+[0.830665] (-) TimerEvent: {}
+[0.931211] (-) TimerEvent: {}
+[1.032021] (-) TimerEvent: {}
+[1.132580] (-) TimerEvent: {}
+[1.233100] (-) TimerEvent: {}
+[1.333877] (-) TimerEvent: {}
+[1.434883] (-) TimerEvent: {}
+[1.535331] (-) TimerEvent: {}
+[1.635785] (-) TimerEvent: {}
+[1.736906] (-) TimerEvent: {}
+[1.837621] (-) TimerEvent: {}
+[1.938643] (-) TimerEvent: {}
+[2.039110] (-) TimerEvent: {}
+[2.139960] (-) TimerEvent: {}
+[2.226094] (vision_guard_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.240122] (-) TimerEvent: {}
+[2.340547] (-) TimerEvent: {}
+[2.441184] (-) TimerEvent: {}
+[2.541885] (-) TimerEvent: {}
+[2.642596] (-) TimerEvent: {}
+[2.743393] (-) TimerEvent: {}
+[2.844099] (-) TimerEvent: {}
+[2.944991] (-) TimerEvent: {}
+[3.045776] (-) TimerEvent: {}
+[3.146443] (-) TimerEvent: {}
+[3.247348] (-) TimerEvent: {}
+[3.347995] (-) TimerEvent: {}
+[3.448832] (-) TimerEvent: {}
+[3.549449] (-) TimerEvent: {}
+[3.674652] (-) TimerEvent: {}
+[3.775798] (-) TimerEvent: {}
+[3.876392] (-) TimerEvent: {}
+[3.976952] (-) TimerEvent: {}
+[3.978914] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.077186] (-) TimerEvent: {}
+[4.178293] (-) TimerEvent: {}
+[4.279062] (-) TimerEvent: {}
+[4.379863] (-) TimerEvent: {}
+[4.481078] (-) TimerEvent: {}
+[4.581853] (-) TimerEvent: {}
+[4.683162] (-) TimerEvent: {}
+[4.760384] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.783291] (-) TimerEvent: {}
+[4.799570] (vision_guard_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.800133] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.800832] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.883436] (-) TimerEvent: {}
+[4.946390] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.983588] (-) TimerEvent: {}
+[5.083975] (-) TimerEvent: {}
+[5.184782] (-) TimerEvent: {}
+[5.285799] (-) TimerEvent: {}
+[5.386468] (-) TimerEvent: {}
+[5.409693] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.443991] (vision_guard_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.444535] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.445479] (vision_guard_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.451146] (vision_guard_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.486599] (-) TimerEvent: {}
+[5.587213] (-) TimerEvent: {}
+[5.688054] (-) TimerEvent: {}
+[5.788963] (-) TimerEvent: {}
+[5.889520] (-) TimerEvent: {}
+[5.971428] (vision_guard_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.989685] (-) TimerEvent: {}
+[6.090134] (-) TimerEvent: {}
+[6.191020] (-) TimerEvent: {}
+[6.291640] (-) TimerEvent: {}
+[6.297198] (vision_guard_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[6.317156] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.391788] (-) TimerEvent: {}
+[6.492903] (-) TimerEvent: {}
+[6.593458] (-) TimerEvent: {}
+[6.667573] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.693605] (-) TimerEvent: {}
+[6.783507] (vision_guard_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[6.793841] (-) TimerEvent: {}
+[6.894661] (-) TimerEvent: {}
+[6.995134] (-) TimerEvent: {}
+[7.095925] (-) TimerEvent: {}
+[7.196434] (-) TimerEvent: {}
+[7.297177] (-) TimerEvent: {}
+[7.397989] (-) TimerEvent: {}
+[7.498425] (-) TimerEvent: {}
+[7.598919] (-) TimerEvent: {}
+[7.699597] (-) TimerEvent: {}
+[7.805575] (-) TimerEvent: {}
+[7.907454] (-) TimerEvent: {}
+[8.007918] (-) TimerEvent: {}
+[8.108529] (-) TimerEvent: {}
+[8.209428] (-) TimerEvent: {}
+[8.309895] (-) TimerEvent: {}
+[8.410364] (-) TimerEvent: {}
+[8.510786] (-) TimerEvent: {}
+[8.611203] (-) TimerEvent: {}
+[8.711706] (-) TimerEvent: {}
+[8.812042] (-) TimerEvent: {}
+[8.912479] (-) TimerEvent: {}
+[9.013010] (-) TimerEvent: {}
+[9.113458] (-) TimerEvent: {}
+[9.691201] (-) TimerEvent: {}
+[9.753667] (vision_guard_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[9.791329] (-) TimerEvent: {}
+[9.891823] (-) TimerEvent: {}
+[9.992986] (-) TimerEvent: {}
+[10.093685] (-) TimerEvent: {}
+[10.194265] (-) TimerEvent: {}
+[11.003039] (-) TimerEvent: {}
+[11.103716] (-) TimerEvent: {}
+[11.204331] (-) TimerEvent: {}
+[11.304840] (-) TimerEvent: {}
+[11.405254] (-) TimerEvent: {}
+[11.505753] (-) TimerEvent: {}
+[11.606279] (-) TimerEvent: {}
+[11.706883] (-) TimerEvent: {}
+[11.807562] (-) TimerEvent: {}
+[11.908120] (-) TimerEvent: {}
+[12.008951] (-) TimerEvent: {}
+[12.110417] (-) TimerEvent: {}
+[12.211434] (-) TimerEvent: {}
+[12.312050] (-) TimerEvent: {}
+[12.412782] (-) TimerEvent: {}
+[12.514098] (-) TimerEvent: {}
+[12.614834] (-) TimerEvent: {}
+[12.715347] (-) TimerEvent: {}
+[12.815936] (-) TimerEvent: {}
+[12.916485] (-) TimerEvent: {}
+[13.017536] (-) TimerEvent: {}
+[13.118650] (-) TimerEvent: {}
+[13.221016] (-) TimerEvent: {}
+[13.322015] (-) TimerEvent: {}
+[13.422451] (-) TimerEvent: {}
+[13.525792] (-) TimerEvent: {}
+[13.626316] (-) TimerEvent: {}
+[13.628246] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.726413] (-) TimerEvent: {}
+[13.826732] (-) TimerEvent: {}
+[13.927094] (-) TimerEvent: {}
+[14.027391] (-) TimerEvent: {}
+[14.127832] (-) TimerEvent: {}
+[14.228226] (-) TimerEvent: {}
+[14.328826] (-) TimerEvent: {}
+[14.429370] (-) TimerEvent: {}
+[14.529823] (-) TimerEvent: {}
+[14.630321] (-) TimerEvent: {}
+[14.730738] (-) TimerEvent: {}
+[14.831149] (-) TimerEvent: {}
+[14.931702] (-) TimerEvent: {}
+[15.032169] (-) TimerEvent: {}
+[15.132593] (-) TimerEvent: {}
+[15.195258] (vision_guard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.232727] (-) TimerEvent: {}
+[15.333247] (-) TimerEvent: {}
+[15.434015] (-) TimerEvent: {}
+[15.501595] (vision_guard_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[15.534168] (-) TimerEvent: {}
+[15.634639] (-) TimerEvent: {}
+[15.735107] (-) TimerEvent: {}
+[15.835658] (-) TimerEvent: {}
+[15.936068] (-) TimerEvent: {}
+[16.018594] (vision_guard_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[16.036299] (-) TimerEvent: {}
+[16.138413] (-) TimerEvent: {}
+[16.239176] (-) TimerEvent: {}
+[16.339669] (-) TimerEvent: {}
+[16.440384] (-) TimerEvent: {}
+[16.541248] (-) TimerEvent: {}
+[16.641706] (-) TimerEvent: {}
+[16.760801] (-) TimerEvent: {}
+[16.861580] (-) TimerEvent: {}
+[16.962193] (-) TimerEvent: {}
+[17.063696] (-) TimerEvent: {}
+[17.164210] (-) TimerEvent: {}
+[17.264715] (-) TimerEvent: {}
+[17.365203] (-) TimerEvent: {}
+[17.465937] (-) TimerEvent: {}
+[17.566658] (-) TimerEvent: {}
+[17.667474] (-) TimerEvent: {}
+[17.768330] (-) TimerEvent: {}
+[17.868873] (-) TimerEvent: {}
+[17.969433] (-) TimerEvent: {}
+[18.070178] (-) TimerEvent: {}
+[18.170747] (-) TimerEvent: {}
+[18.271323] (-) TimerEvent: {}
+[18.371839] (-) TimerEvent: {}
+[18.479862] (-) TimerEvent: {}
+[18.580527] (-) TimerEvent: {}
+[18.681032] (-) TimerEvent: {}
+[18.781567] (-) TimerEvent: {}
+[18.882148] (-) TimerEvent: {}
+[18.982793] (-) TimerEvent: {}
+[19.083770] (-) TimerEvent: {}
+[19.184353] (-) TimerEvent: {}
+[19.285166] (-) TimerEvent: {}
+[19.385601] (-) TimerEvent: {}
+[19.486011] (-) TimerEvent: {}
+[19.586437] (-) TimerEvent: {}
+[19.686859] (-) TimerEvent: {}
+[19.787454] (-) TimerEvent: {}
+[19.888370] (-) TimerEvent: {}
+[19.942036] (vision_guard_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[19.988577] (-) TimerEvent: {}
+[20.139210] (-) TimerEvent: {}
+[20.269199] (-) TimerEvent: {}
+[20.369829] (-) TimerEvent: {}
+[20.470329] (-) TimerEvent: {}
+[20.570873] (-) TimerEvent: {}
+[20.671467] (-) TimerEvent: {}
+[20.763086] (vision_guard_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[20.771853] (-) TimerEvent: {}
+[20.872988] (-) TimerEvent: {}
+[20.974080] (-) TimerEvent: {}
+[21.007699] (vision_guard_msgs) StdoutLine: {'line': b'-- Configuring done (20.9s)\n'}
+[21.074272] (-) TimerEvent: {}
+[21.174720] (-) TimerEvent: {}
+[21.275092] (-) TimerEvent: {}
+[21.375603] (-) TimerEvent: {}
+[21.478406] (vision_guard_msgs) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[21.479093] (-) TimerEvent: {}
+[21.555146] (vision_guard_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs\n'}
+[21.579529] (-) TimerEvent: {}
+[21.586403] (vision_guard_msgs) CommandEnded: {'returncode': 0}
+[21.589237] (vision_guard_msgs) JobProgress: {'identifier': 'vision_guard_msgs', 'progress': 'build'}
+[21.589310] (vision_guard_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ironcladhealer769', 'GIT_ASKPASS': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ironcladhealer769', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b58144e6-1553-498c-96ed-6b0badc692a2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ironcladhealer769', 'NAME': 'DESKTOP-31SO28P', 'WSL_INTEROP': '/run/WSL/144_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/.local/bin:/mnt/c/Users/DELL/miniconda3:/mnt/c/Users/DELL/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/DELL/miniconda3/Library/usr/bin:/mnt/c/Users/DELL/miniconda3/Library/bin:/mnt/c/Users/DELL/miniconda3/Scripts:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/GitHubDesktop/bin:/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a50c607dea41cad3.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ironcladhealer769/.vscode-server/data/User/workspaceStorage/0ed232f55e927b65b43a1721ec913af9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0c6614ca25.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[21.680397] (-) TimerEvent: {}
+[21.730198] (vision_guard_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[21.737091] (vision_guard_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[21.760130] (vision_guard_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_vision_guard_msgs\n'}
+[21.780632] (-) TimerEvent: {}
+[21.881176] (-) TimerEvent: {}
+[21.981653] (-) TimerEvent: {}
+[22.082636] (-) TimerEvent: {}
+[22.183411] (-) TimerEvent: {}
+[22.288589] (-) TimerEvent: {}
+[22.389523] (-) TimerEvent: {}
+[22.503707] (-) TimerEvent: {}
+[22.610379] (-) TimerEvent: {}
+[22.722419] (-) TimerEvent: {}
+[22.876275] (-) TimerEvent: {}
+[22.981953] (-) TimerEvent: {}
+[23.205076] (-) TimerEvent: {}
+[23.390106] (-) TimerEvent: {}
+[23.510803] (-) TimerEvent: {}
+[23.628357] (-) TimerEvent: {}
+[23.837415] (-) TimerEvent: {}
+[23.996130] (-) TimerEvent: {}
+[24.139597] (-) TimerEvent: {}
+[24.310203] (-) TimerEvent: {}
+[24.410968] (-) TimerEvent: {}
+[24.529947] (-) TimerEvent: {}
+[24.741643] (-) TimerEvent: {}
+[24.851937] (-) TimerEvent: {}
+[24.956519] (-) TimerEvent: {}
+[25.060802] (-) TimerEvent: {}
+[25.090578] (vision_guard_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[25.090811] (vision_guard_msgs) StdoutLine: {'line': b'creating vision_guard_msgs.egg-info\n'}
+[25.176482] (-) TimerEvent: {}
+[25.320425] (-) TimerEvent: {}
+[25.327491] (vision_guard_msgs) StdoutLine: {'line': b'writing vision_guard_msgs.egg-info/PKG-INFO\n'}
+[25.391717] (vision_guard_msgs) StdoutLine: {'line': b'writing dependency_links to vision_guard_msgs.egg-info/dependency_links.txt\n'}
+[25.392045] (vision_guard_msgs) StdoutLine: {'line': b'writing top-level names to vision_guard_msgs.egg-info/top_level.txt\n'}
+[25.392458] (vision_guard_msgs) StdoutLine: {'line': b"writing manifest file 'vision_guard_msgs.egg-info/SOURCES.txt'\n"}
+[25.420564] (-) TimerEvent: {}
+[25.551756] (-) TimerEvent: {}
+[25.669812] (-) TimerEvent: {}
+[25.906118] (-) TimerEvent: {}
+[26.092042] (-) TimerEvent: {}
+[26.206973] (-) TimerEvent: {}
+[26.328162] (-) TimerEvent: {}
+[26.707353] (-) TimerEvent: {}
+[26.798326] (vision_guard_msgs) StdoutLine: {'line': b"reading manifest file 'vision_guard_msgs.egg-info/SOURCES.txt'\n"}
+[26.799456] (vision_guard_msgs) StdoutLine: {'line': b"writing manifest file 'vision_guard_msgs.egg-info/SOURCES.txt'\n"}
+[26.842491] (-) TimerEvent: {}
+[26.981066] (-) TimerEvent: {}
+[27.131729] (-) TimerEvent: {}
+[27.270014] (-) TimerEvent: {}
+[27.324558] (vision_guard_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_vision_guard_msgs_egg\n'}
+[27.404807] (-) TimerEvent: {}
+[27.517706] (-) TimerEvent: {}
+[27.608899] (vision_guard_msgs) StdoutLine: {'line': b'[  5%] Built target vision_guard_msgs__rosidl_generator_type_description\n'}
+[27.617929] (-) TimerEvent: {}
+[27.653075] (vision_guard_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[27.726986] (vision_guard_msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[27.740792] (-) TimerEvent: {}
+[27.828411] (vision_guard_msgs) StdoutLine: {'line': b'[ 11%] Built target vision_guard_msgs__rs\n'}
+[27.841048] (-) TimerEvent: {}
+[27.941733] (-) TimerEvent: {}
+[28.066663] (-) TimerEvent: {}
+[28.167414] (-) TimerEvent: {}
+[28.267881] (-) TimerEvent: {}
+[28.368804] (-) TimerEvent: {}
+[28.470427] (-) TimerEvent: {}
+[28.571496] (-) TimerEvent: {}
+[28.672412] (-) TimerEvent: {}
+[28.773895] (-) TimerEvent: {}
+[28.874567] (-) TimerEvent: {}
+[28.975477] (-) TimerEvent: {}
+[29.076280] (-) TimerEvent: {}
+[29.176839] (-) TimerEvent: {}
+[29.277743] (-) TimerEvent: {}
+[29.378240] (-) TimerEvent: {}
+[29.384782] (vision_guard_msgs) StdoutLine: {'line': b'[ 11%] Built target vision_guard_msgs__cpp\n'}
+[29.478545] (-) TimerEvent: {}
+[29.584922] (-) TimerEvent: {}
+[29.706518] (vision_guard_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_guard_msgs/msg/detail/detection__functions.c.o\x1b[0m\n'}
+[29.707206] (-) TimerEvent: {}
+[29.707425] (vision_guard_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_guard_msgs/msg/detail/detection__description.c.o\x1b[0m\n'}
+[29.707631] (vision_guard_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_guard_msgs/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[29.850084] (-) TimerEvent: {}
+[29.950371] (-) TimerEvent: {}
+[30.050716] (-) TimerEvent: {}
+[30.151068] (-) TimerEvent: {}
+[30.282730] (-) TimerEvent: {}
+[30.383288] (-) TimerEvent: {}
+[30.483884] (-) TimerEvent: {}
+[30.584424] (-) TimerEvent: {}
+[30.684921] (-) TimerEvent: {}
+[30.821094] (-) TimerEvent: {}
+[30.932628] (-) TimerEvent: {}
+[31.034359] (-) TimerEvent: {}
+[31.134844] (-) TimerEvent: {}
+[31.235852] (-) TimerEvent: {}
+[31.336844] (-) TimerEvent: {}
+[31.437425] (-) TimerEvent: {}
+[31.538113] (-) TimerEvent: {}
+[31.638548] (-) TimerEvent: {}
+[31.739020] (-) TimerEvent: {}
+[31.839555] (-) TimerEvent: {}
+[31.940085] (-) TimerEvent: {}
+[32.040730] (-) TimerEvent: {}
+[32.141656] (-) TimerEvent: {}
+[32.242828] (-) TimerEvent: {}
+[32.343307] (-) TimerEvent: {}
+[32.406341] (vision_guard_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libvision_guard_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[32.443458] (-) TimerEvent: {}
+[32.543878] (-) TimerEvent: {}
+[32.644278] (-) TimerEvent: {}
+[32.728346] (vision_guard_msgs) StdoutLine: {'line': b'[ 22%] Built target vision_guard_msgs__rosidl_generator_c\n'}
+[32.748263] (-) TimerEvent: {}
+[32.754289] (vision_guard_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.754691] (vision_guard_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.762014] (vision_guard_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[32.774638] (vision_guard_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.848475] (-) TimerEvent: {}
+[32.979138] (-) TimerEvent: {}
+[33.092245] (-) TimerEvent: {}
+[33.246988] (-) TimerEvent: {}
+[33.421256] (-) TimerEvent: {}
+[33.529918] (-) TimerEvent: {}
+[33.640318] (-) TimerEvent: {}
+[33.876645] (-) TimerEvent: {}
+[34.004960] (-) TimerEvent: {}
+[34.212983] (-) TimerEvent: {}
+[34.448798] (-) TimerEvent: {}
+[34.579896] (-) TimerEvent: {}
+[34.741933] (-) TimerEvent: {}
+[34.923100] (-) TimerEvent: {}
+[35.067469] (-) TimerEvent: {}
+[35.167996] (-) TimerEvent: {}
+[35.273969] (-) TimerEvent: {}
+[35.397262] (-) TimerEvent: {}
+[35.625082] (-) TimerEvent: {}
+[35.763793] (-) TimerEvent: {}
+[35.936511] (-) TimerEvent: {}
+[36.053009] (-) TimerEvent: {}
+[36.155387] (-) TimerEvent: {}
+[36.285016] (-) TimerEvent: {}
+[36.387174] (-) TimerEvent: {}
+[36.488091] (-) TimerEvent: {}
+[36.588636] (-) TimerEvent: {}
+[36.783420] (-) TimerEvent: {}
+[36.883868] (-) TimerEvent: {}
+[36.991562] (-) TimerEvent: {}
+[37.092356] (-) TimerEvent: {}
+[37.192897] (-) TimerEvent: {}
+[37.293405] (-) TimerEvent: {}
+[37.393720] (-) TimerEvent: {}
+[37.530998] (-) TimerEvent: {}
+[37.765065] (-) TimerEvent: {}
+[37.878445] (-) TimerEvent: {}
+[38.044356] (-) TimerEvent: {}
+[38.146860] (-) TimerEvent: {}
+[38.248552] (-) TimerEvent: {}
+[38.362612] (-) TimerEvent: {}
+[38.465256] (-) TimerEvent: {}
+[38.574204] (-) TimerEvent: {}
+[38.681990] (-) TimerEvent: {}
+[38.747774] (vision_guard_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/vision_guard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_guard_msgs/msg/detail/detection__type_support_c.cpp.o\x1b[0m\n'}
+[38.782642] (-) TimerEvent: {}
+[38.888305] (-) TimerEvent: {}
+[38.919424] (vision_guard_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/vision_guard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_guard_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[38.988523] (-) TimerEvent: {}
+[39.087273] (vision_guard_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/vision_guard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_guard_msgs/msg/detail/detection__type_support.cpp.o\x1b[0m\n'}
+[39.088636] (-) TimerEvent: {}
+[39.229602] (-) TimerEvent: {}
+[39.331600] (-) TimerEvent: {}
+[39.436039] (-) TimerEvent: {}
+[39.473842] (vision_guard_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vision_guard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_guard_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[39.538708] (-) TimerEvent: {}
+[39.639546] (-) TimerEvent: {}
+[39.740808] (-) TimerEvent: {}
+[39.841752] (-) TimerEvent: {}
+[39.880984] (vision_guard_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libvision_guard_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[39.942063] (-) TimerEvent: {}
+[40.042757] (-) TimerEvent: {}
+[40.143547] (-) TimerEvent: {}
+[40.244146] (-) TimerEvent: {}
+[40.344781] (-) TimerEvent: {}
+[40.409593] (vision_guard_msgs) StdoutLine: {'line': b'[ 48%] Built target vision_guard_msgs__rosidl_typesupport_c\n'}
+[40.432597] (vision_guard_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[40.444914] (-) TimerEvent: {}
+[40.545450] (-) TimerEvent: {}
+[40.668758] (-) TimerEvent: {}
+[40.769519] (-) TimerEvent: {}
+[40.870415] (-) TimerEvent: {}
+[40.973253] (-) TimerEvent: {}
+[41.073665] (-) TimerEvent: {}
+[41.217307] (-) TimerEvent: {}
+[41.317866] (-) TimerEvent: {}
+[41.428603] (-) TimerEvent: {}
+[41.529278] (-) TimerEvent: {}
+[41.630086] (-) TimerEvent: {}
+[41.734152] (-) TimerEvent: {}
+[41.870966] (-) TimerEvent: {}
+[41.909755] (vision_guard_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_guard_msgs/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[41.971867] (-) TimerEvent: {}
+[42.073001] (-) TimerEvent: {}
+[42.173743] (-) TimerEvent: {}
+[42.270716] (vision_guard_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libvision_guard_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[42.273983] (-) TimerEvent: {}
+[42.375923] (-) TimerEvent: {}
+[42.476757] (-) TimerEvent: {}
+[42.580632] (-) TimerEvent: {}
+[42.681214] (-) TimerEvent: {}
+[42.837496] (-) TimerEvent: {}
+[42.939848] (-) TimerEvent: {}
+[43.084624] (-) TimerEvent: {}
+[43.124945] (vision_guard_msgs) StdoutLine: {'line': b'[ 57%] Built target vision_guard_msgs__rosidl_typesupport_introspection_c\n'}
+[43.251003] (-) TimerEvent: {}
+[43.429268] (-) TimerEvent: {}
+[43.532119] (vision_guard_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[43.565821] (-) TimerEvent: {}
+[43.669979] (-) TimerEvent: {}
+[43.802059] (-) TimerEvent: {}
+[43.911995] (-) TimerEvent: {}
+[44.049567] (-) TimerEvent: {}
+[44.182414] (-) TimerEvent: {}
+[44.334580] (-) TimerEvent: {}
+[44.435130] (-) TimerEvent: {}
+[44.539236] (-) TimerEvent: {}
+[44.686454] (-) TimerEvent: {}
+[44.801414] (-) TimerEvent: {}
+[44.911881] (-) TimerEvent: {}
+[45.127350] (-) TimerEvent: {}
+[45.307157] (-) TimerEvent: {}
+[45.417669] (-) TimerEvent: {}
+[45.608877] (-) TimerEvent: {}
+[45.744758] (-) TimerEvent: {}
+[45.867156] (-) TimerEvent: {}
+[46.201678] (-) TimerEvent: {}
+[46.357773] (-) TimerEvent: {}
+[46.507800] (-) TimerEvent: {}
+[46.710160] (-) TimerEvent: {}
+[46.890013] (-) TimerEvent: {}
+[47.054622] (-) TimerEvent: {}
+[47.251280] (-) TimerEvent: {}
+[47.355626] (-) TimerEvent: {}
+[47.486572] (-) TimerEvent: {}
+[47.679260] (-) TimerEvent: {}
+[47.784572] (-) TimerEvent: {}
+[47.931480] (-) TimerEvent: {}
+[48.207568] (-) TimerEvent: {}
+[48.327665] (-) TimerEvent: {}
+[48.603655] (-) TimerEvent: {}
+[48.788498] (-) TimerEvent: {}
+[48.897128] (-) TimerEvent: {}
+[49.084373] (-) TimerEvent: {}
+[49.220950] (-) TimerEvent: {}
+[49.341683] (-) TimerEvent: {}
+[49.458555] (-) TimerEvent: {}
+[50.315055] (-) TimerEvent: {}
+[51.224736] (-) TimerEvent: {}
+[51.381123] (-) TimerEvent: {}
+[51.548664] (-) TimerEvent: {}
+[51.687153] (-) TimerEvent: {}
+[51.789088] (-) TimerEvent: {}
+[51.936151] (-) TimerEvent: {}
+[52.051631] (-) TimerEvent: {}
+[52.159335] (-) TimerEvent: {}
+[52.259984] (-) TimerEvent: {}
+[52.367459] (-) TimerEvent: {}
+[52.471642] (-) TimerEvent: {}
+[52.600556] (-) TimerEvent: {}
+[52.720582] (-) TimerEvent: {}
+[52.924012] (-) TimerEvent: {}
+[53.089013] (-) TimerEvent: {}
+[53.194745] (-) TimerEvent: {}
+[53.299288] (-) TimerEvent: {}
+[53.446705] (-) TimerEvent: {}
+[53.576647] (-) TimerEvent: {}
+[53.739488] (-) TimerEvent: {}
+[53.871736] (-) TimerEvent: {}
+[53.977958] (-) TimerEvent: {}
+[54.082009] (-) TimerEvent: {}
+[54.260122] (-) TimerEvent: {}
+[54.442001] (-) TimerEvent: {}
+[54.723080] (-) TimerEvent: {}
+[54.856384] (-) TimerEvent: {}
+[55.086227] (-) TimerEvent: {}
+[55.289026] (-) TimerEvent: {}
+[55.503882] (-) TimerEvent: {}
+[55.747550] (-) TimerEvent: {}
+[56.031662] (-) TimerEvent: {}
+[56.153427] (-) TimerEvent: {}
+[56.315582] (-) TimerEvent: {}
+[56.416325] (-) TimerEvent: {}
+[56.636670] (-) TimerEvent: {}
+[56.740205] (-) TimerEvent: {}
+[56.852153] (-) TimerEvent: {}
+[56.985044] (-) TimerEvent: {}
+[57.091003] (-) TimerEvent: {}
+[57.241185] (-) TimerEvent: {}
+[57.345782] (-) TimerEvent: {}
+[57.544115] (-) TimerEvent: {}
+[57.922519] (-) TimerEvent: {}
+[58.194018] (-) TimerEvent: {}
+[58.390796] (-) TimerEvent: {}
+[58.497355] (-) TimerEvent: {}
+[58.659547] (-) TimerEvent: {}
+[58.873094] (-) TimerEvent: {}
+[59.026143] (-) TimerEvent: {}
+[59.131210] (-) TimerEvent: {}
+[59.260790] (-) TimerEvent: {}
+[59.404939] (-) TimerEvent: {}
+[59.768370] (-) TimerEvent: {}
+[59.979551] (-) TimerEvent: {}
+[60.082014] (-) TimerEvent: {}
+[60.223728] (-) TimerEvent: {}
+[60.326493] (-) TimerEvent: {}
+[60.459787] (-) TimerEvent: {}
+[60.560473] (-) TimerEvent: {}
+[60.682849] (-) TimerEvent: {}
+[60.783208] (-) TimerEvent: {}
+[60.898161] (-) TimerEvent: {}
+[61.044737] (-) TimerEvent: {}
+[61.196816] (-) TimerEvent: {}
+[61.332972] (-) TimerEvent: {}
+[61.439977] (-) TimerEvent: {}
+[61.541438] (-) TimerEvent: {}
+[61.648579] (-) TimerEvent: {}
+[61.816845] (-) TimerEvent: {}
+[61.928813] (-) TimerEvent: {}
+[62.146819] (-) TimerEvent: {}
+[62.267579] (-) TimerEvent: {}
+[62.400867] (-) TimerEvent: {}
+[62.707409] (-) TimerEvent: {}
+[62.962130] (-) TimerEvent: {}
+[63.208143] (-) TimerEvent: {}
+[63.427025] (-) TimerEvent: {}
+[63.635938] (-) TimerEvent: {}
+[63.863633] (-) TimerEvent: {}
+[63.969409] (-) TimerEvent: {}
+[64.079788] (-) TimerEvent: {}
+[64.180078] (-) TimerEvent: {}
+[64.308263] (-) TimerEvent: {}
+[64.479820] (-) TimerEvent: {}
+[64.681708] (-) TimerEvent: {}
+[64.826471] (-) TimerEvent: {}
+[64.988203] (-) TimerEvent: {}
+[65.162255] (-) TimerEvent: {}
+[65.339189] (-) TimerEvent: {}
+[65.854041] (-) TimerEvent: {}
+[66.015945] (-) TimerEvent: {}
+[66.194222] (-) TimerEvent: {}
+[66.378605] (-) TimerEvent: {}
+[66.521594] (-) TimerEvent: {}
+[66.754630] (-) TimerEvent: {}
+[66.864446] (-) TimerEvent: {}
+[67.156529] (-) TimerEvent: {}
+[67.256998] (-) TimerEvent: {}
+[67.366297] (-) TimerEvent: {}
+[67.492388] (-) TimerEvent: {}
+[67.688821] (-) TimerEvent: {}
+[67.789162] (-) TimerEvent: {}
+[67.891947] (-) TimerEvent: {}
+[68.097208] (-) TimerEvent: {}
+[68.296430] (-) TimerEvent: {}
+[68.613378] (-) TimerEvent: {}
+[68.826180] (-) TimerEvent: {}
+[69.035687] (-) TimerEvent: {}
+[69.137848] (-) TimerEvent: {}
+[69.239037] (-) TimerEvent: {}
+[69.358510] (-) TimerEvent: {}
+[69.654731] (-) TimerEvent: {}
+[69.791194] (-) TimerEvent: {}
+[69.981174] (-) TimerEvent: {}
+[70.174510] (-) TimerEvent: {}
+[70.375172] (-) TimerEvent: {}
+[70.498265] (-) TimerEvent: {}
+[70.684442] (-) TimerEvent: {}
+[70.883565] (-) TimerEvent: {}
+[71.304782] (-) TimerEvent: {}
+[71.516635] (-) TimerEvent: {}
+[71.711643] (-) TimerEvent: {}
+[71.838248] (-) TimerEvent: {}
+[72.056620] (-) TimerEvent: {}
+[72.216676] (-) TimerEvent: {}
+[72.414174] (-) TimerEvent: {}
+[72.617441] (-) TimerEvent: {}
+[72.773169] (-) TimerEvent: {}
+[73.201489] (-) TimerEvent: {}
+[73.361620] (-) TimerEvent: {}
+[73.644835] (-) TimerEvent: {}
+[73.748345] (-) TimerEvent: {}
+[73.914898] (-) TimerEvent: {}
+[74.228222] (-) TimerEvent: {}
+[74.332268] (-) TimerEvent: {}
+[74.440072] (-) TimerEvent: {}
+[74.514133] (vision_guard_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libvision_guard_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[74.552634] (-) TimerEvent: {}
+[74.563352] (vision_guard_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libvision_guard_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[74.730816] (-) TimerEvent: {}
+[74.759687] (vision_guard_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/vision_guard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_guard_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o\x1b[0m\n'}
+[74.830956] (-) TimerEvent: {}
+[74.931469] (-) TimerEvent: {}
+[75.074076] (-) TimerEvent: {}
+[75.290106] (-) TimerEvent: {}
+[75.430975] (-) TimerEvent: {}
+[75.580980] (-) TimerEvent: {}
+[75.712581] (-) TimerEvent: {}
+[75.819135] (-) TimerEvent: {}
+[75.920147] (-) TimerEvent: {}
+[76.120392] (vision_guard_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libvision_guard_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[76.120630] (-) TimerEvent: {}
+[76.190119] (vision_guard_msgs) StdoutLine: {'line': b'[ 71%] Built target vision_guard_msgs__rosidl_typesupport_cpp\n'}
+[76.220986] (-) TimerEvent: {}
+[76.268505] (vision_guard_msgs) StdoutLine: {'line': b'[ 71%] Built target vision_guard_msgs__rosidl_typesupport_introspection_cpp\n'}
+[76.321113] (-) TimerEvent: {}
+[76.421637] (-) TimerEvent: {}
+[76.522529] (-) TimerEvent: {}
+[76.624338] (-) TimerEvent: {}
+[76.725258] (-) TimerEvent: {}
+[76.747406] (vision_guard_msgs) StdoutLine: {'line': b'[ 71%] Built target vision_guard_msgs__rosidl_typesupport_fastrtps_c\n'}
+[76.825392] (-) TimerEvent: {}
+[76.925859] (-) TimerEvent: {}
+[77.026382] (-) TimerEvent: {}
+[77.126836] (-) TimerEvent: {}
+[77.227532] (-) TimerEvent: {}
+[77.313940] (vision_guard_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvision_guard_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[77.327889] (-) TimerEvent: {}
+[77.428522] (-) TimerEvent: {}
+[77.529025] (-) TimerEvent: {}
+[77.629533] (-) TimerEvent: {}
+[77.708998] (vision_guard_msgs) StdoutLine: {'line': b'[ 74%] Built target vision_guard_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[77.729663] (-) TimerEvent: {}
+[77.760586] (vision_guard_msgs) StdoutLine: {'line': b'[ 74%] Built target vision_guard_msgs\n'}
+[77.808124] (vision_guard_msgs) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[77.829781] (-) TimerEvent: {}
+[77.930324] (-) TimerEvent: {}
+[78.062561] (-) TimerEvent: {}
+[78.163257] (-) TimerEvent: {}
+[78.263788] (-) TimerEvent: {}
+[78.364285] (-) TimerEvent: {}
+[78.464794] (-) TimerEvent: {}
+[78.565344] (-) TimerEvent: {}
+[78.665775] (-) TimerEvent: {}
+[78.766200] (-) TimerEvent: {}
+[78.866720] (-) TimerEvent: {}
+[78.967224] (-) TimerEvent: {}
+[79.067926] (-) TimerEvent: {}
+[79.168297] (-) TimerEvent: {}
+[79.268764] (-) TimerEvent: {}
+[79.369484] (-) TimerEvent: {}
+[79.469973] (-) TimerEvent: {}
+[79.570565] (-) TimerEvent: {}
+[79.676208] (-) TimerEvent: {}
+[79.776657] (-) TimerEvent: {}
+[79.795733] (vision_guard_msgs) StdoutLine: {'line': b'[ 77%] Built target vision_guard_msgs__py\n'}
+[79.853505] (vision_guard_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_guard_msgs/msg/_detection_s.c.o\x1b[0m\n'}
+[79.876812] (-) TimerEvent: {}
+[79.977337] (-) TimerEvent: {}
+[80.077768] (-) TimerEvent: {}
+[80.178760] (-) TimerEvent: {}
+[80.279153] (-) TimerEvent: {}
+[80.379571] (-) TimerEvent: {}
+[80.479982] (-) TimerEvent: {}
+[80.580580] (-) TimerEvent: {}
+[80.681217] (-) TimerEvent: {}
+[80.782075] (-) TimerEvent: {}
+[80.883189] (-) TimerEvent: {}
+[80.984054] (-) TimerEvent: {}
+[81.084545] (-) TimerEvent: {}
+[81.185035] (-) TimerEvent: {}
+[81.285940] (-) TimerEvent: {}
+[81.386636] (-) TimerEvent: {}
+[81.564626] (-) TimerEvent: {}
+[81.665191] (-) TimerEvent: {}
+[81.765694] (-) TimerEvent: {}
+[81.866241] (-) TimerEvent: {}
+[81.966728] (-) TimerEvent: {}
+[82.067599] (-) TimerEvent: {}
+[82.168181] (-) TimerEvent: {}
+[82.268722] (-) TimerEvent: {}
+[82.369274] (-) TimerEvent: {}
+[82.469943] (-) TimerEvent: {}
+[82.570629] (-) TimerEvent: {}
+[82.671134] (-) TimerEvent: {}
+[82.771834] (-) TimerEvent: {}
+[82.827835] (vision_guard_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libvision_guard_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[82.871944] (-) TimerEvent: {}
+[82.972483] (-) TimerEvent: {}
+[83.069471] (vision_guard_msgs) StdoutLine: {'line': b'[ 82%] Built target vision_guard_msgs__rosidl_generator_py\n'}
+[83.072714] (-) TimerEvent: {}
+[83.137432] (vision_guard_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/vision_guard_msgs/_vision_guard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[83.172865] (-) TimerEvent: {}
+[83.273489] (-) TimerEvent: {}
+[83.374472] (-) TimerEvent: {}
+[83.422927] (vision_guard_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[83.474688] (-) TimerEvent: {}
+[83.575801] (-) TimerEvent: {}
+[83.593802] (vision_guard_msgs) StdoutLine: {'line': b'[ 88%] Built target vision_guard_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[83.642484] (vision_guard_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/vision_guard_msgs/_vision_guard_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[83.676325] (-) TimerEvent: {}
+[83.777373] (-) TimerEvent: {}
+[83.877987] (-) TimerEvent: {}
+[83.914126] (vision_guard_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[83.978373] (-) TimerEvent: {}
+[84.083395] (-) TimerEvent: {}
+[84.158098] (vision_guard_msgs) StdoutLine: {'line': b'[ 94%] Built target vision_guard_msgs_s__rosidl_typesupport_c\n'}
+[84.184173] (-) TimerEvent: {}
+[84.206069] (vision_guard_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/vision_guard_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/vision_guard_msgs/_vision_guard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[84.286839] (-) TimerEvent: {}
+[84.397673] (-) TimerEvent: {}
+[84.508024] (-) TimerEvent: {}
+[84.608449] (-) TimerEvent: {}
+[84.708841] (-) TimerEvent: {}
+[84.804564] (vision_guard_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[84.808957] (-) TimerEvent: {}
+[84.909367] (-) TimerEvent: {}
+[85.009919] (-) TimerEvent: {}
+[85.024897] (vision_guard_msgs) StdoutLine: {'line': b'[100%] Built target vision_guard_msgs_s__rosidl_typesupport_introspection_c\n'}
+[85.087942] (vision_guard_msgs) CommandEnded: {'returncode': 0}
+[85.089089] (vision_guard_msgs) JobProgress: {'identifier': 'vision_guard_msgs', 'progress': 'install'}
+[85.107976] (vision_guard_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs'], 'cwd': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ironcladhealer769', 'GIT_ASKPASS': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ironcladhealer769', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b58144e6-1553-498c-96ed-6b0badc692a2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ironcladhealer769', 'NAME': 'DESKTOP-31SO28P', 'WSL_INTEROP': '/run/WSL/144_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ironcladhealer769/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ironcladhealer769/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/.local/bin:/mnt/c/Users/DELL/miniconda3:/mnt/c/Users/DELL/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/DELL/miniconda3/Library/usr/bin:/mnt/c/Users/DELL/miniconda3/Library/bin:/mnt/c/Users/DELL/miniconda3/Scripts:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/GitHubDesktop/bin:/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ironcladhealer769/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a50c607dea41cad3.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ironcladhealer769/.vscode-server/data/User/workspaceStorage/0ed232f55e927b65b43a1721ec913af9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0c6614ca25.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard_msgs', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[85.109983] (-) TimerEvent: {}
+[85.139261] (vision_guard_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[85.146661] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/ament_index/resource_index/rosidl_interfaces/vision_guard_msgs\n'}
+[85.149972] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/msg/Detection.json\n'}
+[85.150365] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs\n'}
+[85.153270] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg\n'}
+[85.155851] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[85.158897] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detection.h\n'}
+[85.160202] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail\n'}
+[85.166587] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__type_support.h\n'}
+[85.167251] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__type_support.c\n'}
+[85.167560] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__functions.h\n'}
+[85.167833] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__struct.h\n'}
+[85.168333] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__functions.c\n'}
+[85.168651] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__description.c\n'}
+[85.168934] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/library_path.sh\n'}
+[85.169673] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/library_path.dsv\n'}
+[85.169935] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_generator_c.so\n'}
+[85.170263] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_generator_c.so" to ""\n'}
+[85.170648] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs\n'}
+[85.170969] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg\n'}
+[85.171350] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[85.171700] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail\n'}
+[85.172011] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[85.172414] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[85.172980] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[85.173329] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs\n'}
+[85.173720] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg\n'}
+[85.174079] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[85.174479] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail\n'}
+[85.174996] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__type_support.c\n'}
+[85.175321] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[85.175772] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_introspection_c.so\n'}
+[85.176390] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[85.176740] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_c.so\n'}
+[85.176955] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_c.so" to ""\n'}
+[85.177300] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs\n'}
+[85.177621] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg\n'}
+[85.178010] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[85.178347] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detection.hpp\n'}
+[85.180694] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail\n'}
+[85.181146] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__type_support.hpp\n'}
+[85.184421] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__struct.hpp\n'}
+[85.185125] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__builder.hpp\n'}
+[85.185989] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__traits.hpp\n'}
+[85.187881] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs\n'}
+[85.188409] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg\n'}
+[85.188815] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[85.189020] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail\n'}
+[85.189164] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[85.201082] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/dds_fastrtps\n'}
+[85.201859] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[85.202215] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[85.203134] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs\n'}
+[85.203858] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg\n'}
+[85.204451] (vision_guard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail\n'}
+[85.205212] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[85.205493] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/include/vision_guard_msgs/vision_guard_msgs/msg/detail/detection__type_support.cpp\n'}
+[85.206769] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[85.207032] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[85.207300] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_cpp.so\n'}
+[85.208242] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[85.208806] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/pythonpath.sh\n'}
+[85.209119] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/pythonpath.dsv\n'}
+[85.209318] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs-0.0.1-py3.12.egg-info\n'}
+[85.210439] (-) TimerEvent: {}
+[85.218169] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[85.219577] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[85.219977] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[85.220253] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[85.220992] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs\n'}
+[85.221685] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[85.222128] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/__init__.py\n'}
+[85.222325] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[85.222506] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/_vision_guard_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[85.223165] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/_vision_guard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[85.223665] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg\n'}
+[85.224074] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg/__init__.py\n'}
+[85.224395] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg/_detection_s.c\n'}
+[85.224566] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg/_detection.py\n'}
+[85.224749] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/_vision_guard_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[85.225021] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_c.so\n'}
+[85.310573] (-) TimerEvent: {}
+[85.340781] (vision_guard_msgs) StdoutLine: {'line': b"Listing '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs'...\n"}
+[85.341230] (vision_guard_msgs) StdoutLine: {'line': b"Compiling '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/__init__.py'...\n"}
+[85.341426] (vision_guard_msgs) StdoutLine: {'line': b"Listing '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg'...\n"}
+[85.341623] (vision_guard_msgs) StdoutLine: {'line': b"Compiling '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg/__init__.py'...\n"}
+[85.341785] (vision_guard_msgs) StdoutLine: {'line': b"Compiling '/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/msg/_detection.py'...\n"}
+[85.359187] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[85.362003] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[85.362732] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[85.363570] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[85.364044] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_c.so\n'}
+[85.364589] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/python3.12/site-packages/vision_guard_msgs/vision_guard_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[85.364946] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_generator_py.so\n'}
+[85.365372] (vision_guard_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/lib/libvision_guard_msgs__rosidl_generator_py.so" to ""\n'}
+[85.366049] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/ament_index/resource_index/rust_packages/vision_guard_msgs\n'}
+[85.366328] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust\n'}
+[85.366801] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/src\n'}
+[85.367319] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/src/msg.rs\n'}
+[85.367721] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/src/msg\n'}
+[85.368553] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/src/msg/rmw.rs\n'}
+[85.368745] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/src/lib.rs\n'}
+[85.369172] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/build.rs\n'}
+[85.369273] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/rust/Cargo.toml\n'}
+[85.369724] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/msg/Detection.idl\n'}
+[85.369936] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/msg/Detection.msg\n'}
+[85.370039] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/ament_index/resource_index/package_run_dependencies/vision_guard_msgs\n'}
+[85.371279] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/ament_index/resource_index/parent_prefix_path/vision_guard_msgs\n'}
+[85.372348] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/ament_prefix_path.sh\n'}
+[85.375411] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/ament_prefix_path.dsv\n'}
+[85.378039] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/path.sh\n'}
+[85.378742] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/environment/path.dsv\n'}
+[85.379097] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/local_setup.bash\n'}
+[85.379564] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/local_setup.sh\n'}
+[85.380815] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/local_setup.zsh\n'}
+[85.381587] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/local_setup.dsv\n'}
+[85.382581] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/package.dsv\n'}
+[85.384899] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/ament_index/resource_index/packages/vision_guard_msgs\n'}
+[85.385526] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_generator_cExport.cmake\n'}
+[85.385759] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[85.385998] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[85.386238] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[85.386471] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[85.386886] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[85.387047] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_cExport.cmake\n'}
+[85.387229] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[85.387367] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_generator_cppExport.cmake\n'}
+[85.387621] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[85.387846] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[85.388294] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[85.388483] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[85.388614] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[85.388983] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[85.389388] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_generator_pyExport.cmake\n'}
+[85.389551] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/export_vision_guard_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[85.389887] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[85.390270] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[85.390597] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[85.390718] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[85.391103] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[85.391623] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[85.391730] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[85.391836] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgsConfig.cmake\n'}
+[85.391927] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/cmake/vision_guard_msgsConfig-version.cmake\n'}
+[85.394067] (vision_guard_msgs) StdoutLine: {'line': b'-- Installing: /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard_msgs/share/vision_guard_msgs/package.xml\n'}
+[85.398830] (vision_guard_msgs) CommandEnded: {'returncode': 0}
+[85.410968] (-) TimerEvent: {}
+[85.511432] (-) TimerEvent: {}
+[85.549854] (vision_guard_msgs) JobEnded: {'identifier': 'vision_guard_msgs', 'rc': 0}
+[85.552017] (-) EventReactorShutdown: {}

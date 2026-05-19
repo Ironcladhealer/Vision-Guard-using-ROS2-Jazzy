@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_guard_msgs/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+
+module vision_guard_msgs {
+  module msg {
+    struct Detection {
+      @verbatim (language="comment", text=
+        "e.g. \"person\", \"car\"")
+      string label;
+
+      @verbatim (language="comment", text=
+        "0.0 to 1.0")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "top-left x of bounding box")
+      float x;
+
+      @verbatim (language="comment", text=
+        "top-left y of bounding box")
+      float y;
+
+      @verbatim (language="comment", text=
+        "box width in pixels")
+      float width;
+
+      @verbatim (language="comment", text=
+        "box height in pixels")
+      float height;
+
+      @verbatim (language="comment", text=
+        "assigned by tracker node (-1 if untracked)")
+      int32 track_id;
+    };
+  };
+};

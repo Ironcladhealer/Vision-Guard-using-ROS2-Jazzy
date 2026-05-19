@@ -1,0 +1,36 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from vision_guard_msgs:msg/Detection.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "vision_guard_msgs/msg/detection.h"
+
+
+#ifndef VISION_GUARD_MSGS__MSG__DETAIL__DETECTION__TYPE_SUPPORT_H_
+#define VISION_GUARD_MSGS__MSG__DETAIL__DETECTION__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "vision_guard_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_vision_guard_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  vision_guard_msgs,
+  msg,
+  Detection
+)(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // VISION_GUARD_MSGS__MSG__DETAIL__DETECTION__TYPE_SUPPORT_H_

@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating vision_guard.egg-info
+writing vision_guard.egg-info/PKG-INFO
+writing dependency_links to vision_guard.egg-info/dependency_links.txt
+writing entry points to vision_guard.egg-info/entry_points.txt
+writing requirements to vision_guard.egg-info/requires.txt
+writing top-level names to vision_guard.egg-info/top_level.txt
+writing manifest file 'vision_guard.egg-info/SOURCES.txt'
+reading manifest file 'vision_guard.egg-info/SOURCES.txt'
+writing manifest file 'vision_guard.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/python3.12/site-packages/vision-guard.egg-link (link to .)
+Installing detector_node script to /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/vision_guard
+Installing response_node script to /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/vision_guard
+Installing tracker_node script to /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/lib/vision_guard
+
+Installed /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard
+running symlink_data
+creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index
+creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index/resource_index
+creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index/resource_index/packages
+symbolically linking /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/resource/vision_guard -> /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/ament_index/resource_index/packages
+symbolically linking /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/package.xml -> /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/vision_guard
+creating /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/vision_guard/launch
+symbolically linking /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/build/vision_guard/launch/vision_guard.launch.py -> /home/ironcladhealer769/Vision-Guard-using-ROS2-Jazzy/install/vision_guard/share/vision_guard/launch
